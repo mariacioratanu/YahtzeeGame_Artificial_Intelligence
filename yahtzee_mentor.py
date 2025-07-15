@@ -1,7 +1,7 @@
 import random
 import openai
 
-openai.api_key = "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"
+openai.api_key = "sk-proj-1234" # am sters cheia pt securitate
 
 class YahtzeeMentor:
 
