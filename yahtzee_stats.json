@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2025-01-16 09:37:11",
+    "player_score": 225,
+    "ai_score": 173,
+    "comment": "Felicitări! Ai câștigat!"
+  },
+  {
+    "date": "2025-01-16 09:54:14",
+    "player_score": 279,
+    "ai_score": 132,
+    "comment": "Felicitări! Ai câștigat!"
+  },
+  {
+    "date": "2025-01-16 12:10:49",
+    "player_score": 203,
+    "ai_score": 170,
+    "comment": "Felicitări! Ai câștigat!"
+  },
+  {
+    "date": "2025-01-16 12:11:09",
+    "player_score": 203,
+    "ai_score": 170,
+    "comment": "Felicitări! Ai câștigat!"
+  },
+  {
+    "date": "2025-01-16 12:46:13",
+    "player_score": 160,
+    "ai_score": 200,
+    "comment": "AI-ul a castigat!"
+  },
+  {
+    "date": "2025-01-16 12:46:36",
+    "player_score": 160,
+    "ai_score": 200,
+    "comment": "AI-ul a castigat!"
+  }
+]
