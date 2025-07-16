@@ -1,22 +1,12 @@
-# YahtzeeGame_Artificial_Intelligence
-Interactive Yahtzee game in Python that pairs a Tkinter GUI with multiple AI strategies (Random, Heuristic, MCTS, Minimax), real-time AI coaching and built-in performance tracking.
-
-# Yahtzee AI Mentor
-
-> Play Yahtzee against multiple AI strategies, get real‑time GPT coaching, and track your performance – all from a colorful Tkinter interface.
-
-
 # 🎲 Yahtzee AI – Intelligent Dice Game with GUI, Strategies, and GPT Integration
 
 Interactive Yahtzee game in Python that pairs a Tkinter GUI with multiple AI strategies (Random, Heuristic, MCTS, Minimax), real-time GPT coaching and built-in performance tracking.
-
 
 ## 👩‍💻 Team
 
 - Ciorâțanu Maria
 - Pâncă Aida-Gabriela
 - Varzar Alina-Miruna  
-
 
 ## 🧠 Architecture
 
@@ -74,33 +64,6 @@ Implemented strategies are fully encapsulated and interchangeable:
 | Cloud            | OpenAI ChatCompletion API        |
 | Data Persistence | JSON (for game stats)            |
 
-## Architecture Overview
-
-```text
-+-------------------+
-| gui_advanced.py   |  <-- Tkinter windows, buttons, chat
-+---------+---------+
-          |
-          v
-+---------+---------+
-| YahtzeeGameState  |  (main.py) – rules & state
-+---------+---------+
-          |
-          v
-+-------------------+
-| ai_strategies.py  |  <-- pluggable strategies
-+---------+---------+
-          |
-          v
-+-------------------+
-| yahtzee_mentor.py |  <-- local + GPT advice
-+---------+---------+
-          |
-          v
-+-------------------+
-| performance_tracker.py | <-- stats persistence
-+-------------------+
-```
 
 ### Architecture
 
