@@ -36,25 +36,15 @@ Implemented strategies are fully encapsulated and interchangeable:
 
 ## 🎮 Features
 
-- ✔️ Interactive GUI (Tkinter + PIL) with dice visuals and clickable interface
-- ✔️ Human vs. AI gameplay (turn-based)
-- ✔️ Local advice system (heuristics-based)
-- ✔️ GPT-4 powered advice with real-time prompts
-- ✔️ Natural language Q&A about Yahtzee rules and strategy
-- ✔️ Post-game performance report with actionable feedback
-- ✔️ Statistics tracking across all sessions (victories, averages, etc.)
+- Interactive GUI (Tkinter + PIL) with dice visuals and clickable interface
+- Human vs. AI gameplay (turn-based)
+- Local advice system (heuristics-based)
+- GPT-4 powered advice with real-time prompts
+- Natural language Q&A about Yahtzee rules and strategy
+- Post-game performance report with actionable feedback
+- Statistics tracking across all sessions (victories, averages, etc.)
 
----
-
-## Features
-
-* **AI Opponents** – Random, Heuristic, Monte‑Carlo Tree Search (two levels) and Minimax.
-* **Interactive GUI** – Clickable dice, vivid pastel palette, scoreboards, chat panel, rule pop‑ups.
-* **Real‑time Advice** – Local rule‑based helper *or* GPT‑4o‑powered mentor on demand.
-* **Performance Analytics** – Every finished game is logged; view aggregate stats at any time.
-* **Modular Design** – Swap in new strategies or UX skins without touching the core engine.
-
-## Tech Stack
+## 🎮 Tech Stack
 
 | Layer            | Tech                             |
 | ---------------- | -------------------------------- |
@@ -64,8 +54,7 @@ Implemented strategies are fully encapsulated and interchangeable:
 | Cloud            | OpenAI ChatCompletion API        |
 | Data Persistence | JSON (for game stats)            |
 
-
-### Architecture
+### 🎮 Architecture
 
 1. GUI asks the player which AI strategy to face, then spins up `YahtzeeGameState` with that strategy.
 2. Player and AI alternate turns; the AI delegates its choices to the injected strategy class.
