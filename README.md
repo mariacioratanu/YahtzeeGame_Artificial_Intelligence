@@ -54,7 +54,7 @@ Implemented strategies are fully encapsulated and interchangeable:
 | Cloud            | OpenAI ChatCompletion API        |
 | Data Persistence | JSON (for game stats)            |
 
-### 🎮 Architecture
+## 🎮 Architecture
 
 1. GUI asks the player which AI strategy to face, then spins up `YahtzeeGameState` with that strategy.
 2. Player and AI alternate turns; the AI delegates its choices to the injected strategy class.
